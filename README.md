@@ -19,7 +19,7 @@ Fix tabbing index
 
 # Extra Info
 
-This is meant to be used with Streamlink through the cli.  
+This is tested with Streamlink through the cli. (No idea what other stuff is out there so it may work on others as all the command go straight to VLC). 
 It uses the HTTP protocal using the loop back address, with the LUA enabled through VLC Gui for security reasons.  
 Only allows for 4 streams at this moment.  
 
