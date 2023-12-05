@@ -63,15 +63,17 @@ Streamlink -p "C:\Program Files\VideoLAN\VLC\vlc.exe" -a "--extraintf=http --htt
   NOTE: Remember to set that password from step 2 of Setup.  
 
 3) 
-  When filling out the rest:  
+  When filling out the rest:
+
   REQUIRED for everything:  
   Port = This is the http-port you set in the cli when starting Streamlink. Make sure you have the right port for the right stream.  
 
   REQUIRED for sound manipulation:  
   Sound % = The percent value of the sound level in VLC, you can adjust it manually and then type in the number or just type in 100 and go from there.  
+  
   DO NOT add % at the end of the number as it is not currently checking for the % to remove it.  
   NOTE: This will not work unless there is a value present for the stream you are trying to change.  
-  NOTE 2: The sound can go up to 200% but does not allow you to go past that as surprisingly you can go past that even but no idea how stable that is so I capped it at the normal 200%.  
+  NOTE 2: The sound can go up to 200% but does not allow you to go past that as using the http commands you can go higher then 200%, but I have no idea how stable that is so I capped it at the normal 200%.  
 
   REQUIRED for stream refresh:  
   Stream Name Metadata = This is the --meta-title you set in the cli when starting the streams. It is not case sensitive but needs to match exactly besides that.  
@@ -82,7 +84,8 @@ Example filled out below.
 
 4) 
   To refresh the stream you will need to check the Refresh Stream checkbox to get those buttons to pop up. I have done that to prevent accidental stream refreshes.  
-  NOTE: This will make the stream freeze once and maybe twice before it gets back going. Usually takes about 4-5 seconds and then when finished, its usually ~4-5 seconds behind what the stream would be at on your browser.  
+  NOTE: This will make the stream freeze once and maybe twice before it gets back going. Usually takes about 4-5 seconds and then when finished, its usually ~4-5 seconds behind what the stream would be at on your browser.
+
 NOTE 2: Recommend you only use this if they are a significant distance behind what they should be like 20+ seconds. But the restreamers in charge of your community will tell you what they are comfortable with to catch things up for the restream.  
 
 
