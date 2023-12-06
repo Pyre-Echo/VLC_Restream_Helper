@@ -24,7 +24,7 @@ This is tested with Streamlink through the cli. (No idea what other stuff is out
 
 It uses the HTTP protocal using the loop back address, with the LUA enabled through VLC Gui to enable password connection for security reasons.  
 
-Only allows for 4 streams at this moment.  
+Only allows for 4 streams max at this moment. Though you can use it with 1,2,3 or 4 streams.    
 
 When changing the main volume, it will smoothy change the volume at a rate of 3.90625% every 0.015 seconds + code time.
 
