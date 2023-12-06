@@ -102,3 +102,25 @@ NOTE 2: Recommend you only use this if they are a significant distance behind wh
 
 
 Any questions feel free to ask me on the Free Enterprise discord in the #tools-and-projects channel.  
+
+
+
+#Troubleshooting
+
+Since it has crappy error logging, here is a couple things to look out for.  
+
+1)  
+  If trying to change the sound, check the VLC messages area in I think tools for any error messages they may be seeing.  
+
+2)  
+   Check the cmdline window that is open for any errors, they will be python error messages but might give you a clue.  
+
+3)  
+  Make sure your password is in the field with the correct port and meta data name.
+  NOTE: Password is case sensitive.  
+
+5)  
+  Check your firewall event logs to see if any of the connections are being blocked by that.  
+
+
+  
