@@ -25,7 +25,7 @@ It uses the HTTP protocal using the loop back address, with the LUA enabled thro
 
 Only allows for 4 streams at this moment.  
 
-When changing the main volume, it will smoothy change the volume at a rate of 3.90625% every 0.015 milliseconds + code time.
+When changing the main volume, it will smoothy change the volume at a rate of 3.90625% every 0.015 seconds + code time.
 
 
 # Setup
