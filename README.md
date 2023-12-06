@@ -22,7 +22,10 @@ Fix tabbing index
 This is tested with Streamlink through the cli. (No idea what other stuff is out there so it may work on others as all the command go straight to VLC).  
 
 It uses the HTTP protocal using the loop back address, with the LUA enabled through VLC Gui to enable password connection for security reasons.  
+
 Only allows for 4 streams at this moment.  
+
+When changing the main volume, it will smoothy change the volume at a rate of 3.90625% every 0.015 milliseconds + code time.
 
 
 # Setup
