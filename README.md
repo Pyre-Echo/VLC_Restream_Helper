@@ -13,7 +13,8 @@ Testing on Linux/Mac to make sure it works as its just using default python libr
 
 Low Priority work:  
 Make it more dummy proof.  
-Fix tabbing index  
+Fix tabbing index.  
+Maybe be able to dynamically pull in stream info.  
 
 
 
